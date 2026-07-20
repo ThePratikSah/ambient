@@ -1,0 +1,16 @@
+{
+  "name": "Ambient",
+  "short_name": "Ambient",
+  "description": "Minimal ambient sound player",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa",
+  "icons": [
+    {
+      "src": "/icons/image.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

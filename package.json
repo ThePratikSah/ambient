@@ -1,0 +1,29 @@
+{
+  "name": "ambient",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-sounds.js",
+    "predev": "node scripts/generate-sounds.js",
+    "prebuild": "node scripts/generate-sounds.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/howler": "^2.2.13",
+    "@types/node": "^24.13.2",
+    "svelte": "^5.56.4",
+    "svelte-check": "^4.7.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "howler": "^2.2.4",
+    "tailwindcss": "^4.3.3"
+  }
+}
