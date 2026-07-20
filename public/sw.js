@@ -5,7 +5,14 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
-      await cache.addAll(["/", "/index.html", "/manifest/manifest.json"]);
+      await cache.addAll([
+        "/",
+        "/index.html",
+        "/manifest/manifest.json",
+        "/icons/icon-192.png",
+        "/icons/icon-512.png",
+        "/icons/apple-touch-icon.png",
+      ]);
       try {
         const res = await fetch(AUDIO_MANIFEST_URL);
         const audioFiles = await res.json();
