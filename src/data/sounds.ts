@@ -5,171 +5,171 @@ import type { Sound } from "../types/sound";
 
 export const sounds: Sound[] = [
   {
-    "id": "airport",
-    "title": "Airport",
-    "icon": "/icons/airport.svg",
-    "audio": "/audio/airport.mp3"
+    id: "airport",
+    title: "Airport",
+    icon: "/icons/airport.svg",
+    audio: "/audio/airport.mp3",
   },
   {
-    "id": "cash-register-purchase",
-    "title": "Cash Register Purchase",
-    "icon": "/icons/cash-register-purchase.svg",
-    "audio": "/audio/cash-register-purchase.mp3"
+    id: "cash-register-purchase",
+    title: "Cash Register Purchase",
+    icon: "/icons/cash-register-purchase.svg",
+    audio: "/audio/cash-register-purchase.mp3",
   },
   {
-    "id": "ceiling-fan",
-    "title": "Ceiling Fan",
-    "icon": "/icons/ceiling-fan.svg",
-    "audio": "/audio/ceiling-fan.mp3"
+    id: "ceiling-fan",
+    title: "Ceiling Fan",
+    icon: "/icons/ceiling-fan.svg",
+    audio: "/audio/ceiling-fan.mp3",
   },
   {
-    "id": "clock",
-    "title": "Clock",
-    "icon": "/icons/clock.svg",
-    "audio": "/audio/clock.mp3"
+    id: "clock",
+    title: "Clock",
+    icon: "/icons/clock.svg",
+    audio: "/audio/clock.mp3",
   },
   {
-    "id": "coffee-shop",
-    "title": "Coffee Shop",
-    "icon": "/icons/coffee-shop.svg",
-    "audio": "/audio/coffee-shop.mp3"
+    id: "coffee-shop",
+    title: "Coffee Shop",
+    icon: "/icons/coffee-shop.svg",
+    audio: "/audio/coffee-shop.mp3",
   },
   {
-    "id": "crickets",
-    "title": "Crickets",
-    "icon": "/icons/crickets.svg",
-    "audio": "/audio/crickets.mp3"
+    id: "crickets",
+    title: "Crickets",
+    icon: "/icons/crickets.svg",
+    audio: "/audio/crickets.mp3",
   },
   {
-    "id": "fireside",
-    "title": "Fireside",
-    "icon": "/icons/fireside.svg",
-    "audio": "/audio/fireside.mp3"
+    id: "fireside",
+    title: "Fireside",
+    icon: "/icons/fireside.svg",
+    audio: "/audio/fireside.mp3",
   },
   {
-    "id": "fireworks",
-    "title": "Fireworks",
-    "icon": "/icons/fireworks.svg",
-    "audio": "/audio/fireworks.mp3"
+    id: "fireworks",
+    title: "Fireworks",
+    icon: "/icons/fireworks.svg",
+    audio: "/audio/fireworks.mp3",
   },
   {
-    "id": "inside-a-train",
-    "title": "Inside A Train",
-    "icon": "/icons/inside-a-train.svg",
-    "audio": "/audio/inside-a-train.mp3"
+    id: "inside-a-train",
+    title: "Train 1",
+    icon: "/icons/train-1.svg",
+    audio: "/audio/inside-a-train.mp3",
   },
   {
-    "id": "keyboard",
-    "title": "Keyboard",
-    "icon": "/icons/keyboard.svg",
-    "audio": "/audio/keyboard.mp3"
+    id: "keyboard",
+    title: "Keyboard",
+    icon: "/icons/keyboard.svg",
+    audio: "/audio/keyboard.mp3",
   },
   {
-    "id": "meditation",
-    "title": "Meditation",
-    "icon": "/icons/meditation.svg",
-    "audio": "/audio/meditation.mp3"
+    id: "meditation",
+    title: "Meditation",
+    icon: "/icons/meditation.svg",
+    audio: "/audio/meditation.mp3",
   },
   {
-    "id": "morse-code",
-    "title": "Morse Code",
-    "icon": "/icons/morse-code.svg",
-    "audio": "/audio/morse-code.mp3"
+    id: "morse-code",
+    title: "Morse Code",
+    icon: "/icons/morse-code.svg",
+    audio: "/audio/morse-code.mp3",
   },
   {
-    "id": "owl",
-    "title": "Owl",
-    "icon": "/icons/owl.svg",
-    "audio": "/audio/owl.mp3"
+    id: "owl",
+    title: "Owl",
+    icon: "/icons/owl.svg",
+    audio: "/audio/owl.mp3",
   },
   {
-    "id": "rain",
-    "title": "Rain",
-    "icon": "/icons/rain.svg",
-    "audio": "/audio/rain.mp3"
+    id: "rain",
+    title: "Rain",
+    icon: "/icons/rain.svg",
+    audio: "/audio/rain.mp3",
   },
   {
-    "id": "rain-on-leaves",
-    "title": "Rain On Leaves",
-    "icon": "/icons/rain-on-leaves.svg",
-    "audio": "/audio/rain-on-leaves.mp3"
+    id: "rain-on-leaves",
+    title: "Rain On Leaves",
+    icon: "/icons/rain.svg",
+    audio: "/audio/rain-on-leaves.mp3",
   },
   {
-    "id": "rain-on-umbrella",
-    "title": "Rain On Umbrella",
-    "icon": "/icons/rain-on-umbrella.svg",
-    "audio": "/audio/rain-on-umbrella.mp3"
+    id: "rain-on-umbrella",
+    title: "Rain On Umbrella",
+    icon: "/icons/rain.svg",
+    audio: "/audio/rain-on-umbrella.mp3",
   },
   {
-    "id": "short-alarm-beep",
-    "title": "Short Alarm Beep",
-    "icon": "/icons/short-alarm-beep.svg",
-    "audio": "/audio/short-alarm-beep.mp3"
+    id: "short-alarm-beep",
+    title: "Short Alarm Beep",
+    icon: "/icons/short-alarm-beep.svg",
+    audio: "/audio/short-alarm-beep.mp3",
   },
   {
-    "id": "singing-bowl",
-    "title": "Singing Bowl",
-    "icon": "/icons/singing-bowl.svg",
-    "audio": "/audio/singing-bowl.mp3"
+    id: "singing-bowl",
+    title: "Singing Bowl",
+    icon: "/icons/singing-bowl.svg",
+    audio: "/audio/singing-bowl.mp3",
   },
   {
-    "id": "suburban-street",
-    "title": "Suburban Street",
-    "icon": "/icons/suburban-street.svg",
-    "audio": "/audio/suburban-street.mp3"
+    id: "suburban-street",
+    title: "Suburban Street",
+    icon: "/icons/suburban-street.svg",
+    audio: "/audio/suburban-street.mp3",
   },
   {
-    "id": "thunder",
-    "title": "Thunder",
-    "icon": "/icons/thunder.svg",
-    "audio": "/audio/thunder.mp3"
+    id: "thunder",
+    title: "Thunder",
+    icon: "/icons/thunder.svg",
+    audio: "/audio/thunder.mp3",
   },
   {
-    "id": "train",
-    "title": "Train",
-    "icon": "/icons/train.svg",
-    "audio": "/audio/train.mp3"
+    id: "train",
+    title: "Train",
+    icon: "/icons/train-2.svg",
+    audio: "/audio/train.mp3",
   },
   {
-    "id": "tuning-radio",
-    "title": "Tuning Radio",
-    "icon": "/icons/tuning-radio.svg",
-    "audio": "/audio/tuning-radio.mp3"
+    id: "tuning-radio",
+    title: "Tuning Radio",
+    icon: "/icons/tuning-radio.svg",
+    audio: "/audio/tuning-radio.mp3",
   },
   {
-    "id": "underwater",
-    "title": "Underwater",
-    "icon": "/icons/underwater.svg",
-    "audio": "/audio/underwater.mp3"
+    id: "underwater",
+    title: "Underwater",
+    icon: "/icons/underwater.svg",
+    audio: "/audio/underwater.mp3",
   },
   {
-    "id": "walk-in-snow",
-    "title": "Walk In Snow",
-    "icon": "/icons/walk-in-snow.svg",
-    "audio": "/audio/walk-in-snow.mp3"
+    id: "walk-in-snow",
+    title: "Walk In Snow",
+    icon: "/icons/walk-in-snow.svg",
+    audio: "/audio/walk-in-snow.mp3",
   },
   {
-    "id": "waves",
-    "title": "Waves",
-    "icon": "/icons/waves.svg",
-    "audio": "/audio/waves.mp3"
+    id: "waves",
+    title: "Waves",
+    icon: "/icons/underwater.svg",
+    audio: "/audio/waves.mp3",
   },
   {
-    "id": "white-noise",
-    "title": "White Noise",
-    "icon": "/icons/white-noise.svg",
-    "audio": "/audio/white-noise.mp3"
+    id: "white-noise",
+    title: "White Noise",
+    icon: "/icons/white-noise.svg",
+    audio: "/audio/white-noise.mp3",
   },
   {
-    "id": "wind-chimes",
-    "title": "Wind Chimes",
-    "icon": "/icons/wind-chimes.svg",
-    "audio": "/audio/wind-chimes.mp3"
+    id: "wind-chimes",
+    title: "Wind Chimes",
+    icon: "/icons/wind-chimes.svg",
+    audio: "/audio/wind-chimes.mp3",
   },
   {
-    "id": "winter-morning",
-    "title": "Winter Morning",
-    "icon": "/icons/winter-morning.svg",
-    "audio": "/audio/winter-morning.mp3"
-  }
+    id: "winter-morning",
+    title: "Winter Morning",
+    icon: "/icons/winter-morning.svg",
+    audio: "/audio/winter-morning.mp3",
+  },
 ];
