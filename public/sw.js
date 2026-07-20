@@ -5,17 +5,19 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
+      await cache.addAll(["/", "/index.html", "/manifest/manifest.json"]);
       try {
         const res = await fetch(AUDIO_MANIFEST_URL);
         const audioFiles = await res.json();
-        await cache.addAll([
-          "/",
-          "/index.html",
-          "/manifest/manifest.json",
-          ...audioFiles,
-        ]);
+        await Promise.allSettled(
+          audioFiles.map((url) =>
+            fetch(url).then((r) => {
+              if (r.ok) cache.put(url, r);
+            })
+          )
+        );
       } catch {
-        console.warn("SW: audio manifest fetch failed, will cache on demand");
+        // audio pre-cache is best-effort; on-demand handles misses
       }
     })()
   );
