@@ -11,12 +11,6 @@ export const sounds: Sound[] = [
     audio: "/audio/airport.mp3",
   },
   {
-    id: "cash-register-purchase",
-    title: "Cash Register Purchase",
-    icon: "/icons/cash-register-purchase.svg",
-    audio: "/audio/cash-register-purchase.mp3",
-  },
-  {
     id: "ceiling-fan",
     title: "Ceiling Fan",
     icon: "/icons/ceiling-fan.svg",
