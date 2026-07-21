@@ -1,7 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import SoundGrid from "./components/SoundGrid.svelte";
-  import ThemeToggle from "./components/ThemeToggle.svelte";
   import { audioStore } from "./stores/audio";
 
   onMount(() => {
@@ -24,7 +23,6 @@
         Ambient
       </h1>
     </div>
-    <ThemeToggle />
   </header>
 
   <main>

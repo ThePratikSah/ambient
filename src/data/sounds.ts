@@ -56,7 +56,7 @@ export const sounds: Sound[] = [
     id: "inside-a-train",
     title: "Train 1",
     icon: "/icons/train-1.svg",
-    audio: "/audio/train.mp3",
+    audio: "/audio/train-1.mp3",
   },
   {
     id: "keyboard",
