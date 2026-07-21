@@ -53,10 +53,16 @@ export const sounds: Sound[] = [
     audio: "/audio/fireworks.mp3",
   },
   {
-    id: "inside-a-train",
+    id: "train-1",
     title: "Train 1",
     icon: "/icons/train-1.svg",
     audio: "/audio/train-1.mp3",
+  },
+  {
+    id: "train-2",
+    title: "Train 2",
+    icon: "/icons/train-2.svg",
+    audio: "/audio/train-2.mp3",
   },
   {
     id: "keyboard",
@@ -123,12 +129,6 @@ export const sounds: Sound[] = [
     title: "Thunder",
     icon: "/icons/thunder.svg",
     audio: "/audio/thunder.mp3",
-  },
-  {
-    id: "train",
-    title: "Train",
-    icon: "/icons/train-2.svg",
-    audio: "/audio/train.mp3",
   },
   {
     id: "tuning-radio",
