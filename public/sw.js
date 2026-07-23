@@ -20,13 +20,13 @@ self.addEventListener("install", (event) => {
           audioFiles.map((url) =>
             fetch(url).then((r) => {
               if (r.ok) cache.put(url, r);
-            })
-          )
+            }),
+          ),
         );
       } catch {
         // audio pre-cache is best-effort; on-demand handles misses
       }
-    })()
+    })(),
   );
   self.skipWaiting();
 });
@@ -35,10 +35,8 @@ self.addEventListener("activate", (event) => {
   event.waitUntil(
     (async () => {
       const keys = await caches.keys();
-      await Promise.all(
-        keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))
-      );
-    })()
+      await Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)));
+    })(),
   );
   self.clients.claim();
 });
@@ -58,7 +56,7 @@ self.addEventListener("fetch", (event) => {
           cache.put(event.request, net.clone());
         }
         return net;
-      })()
+      })(),
     );
     return;
   }
@@ -77,6 +75,6 @@ self.addEventListener("fetch", (event) => {
       } catch {
         return new Response("Offline", { status: 503 });
       }
-    })()
+    })(),
   );
 });

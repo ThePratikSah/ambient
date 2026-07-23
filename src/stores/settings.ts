@@ -10,16 +10,6 @@ interface PersistedSettings {
   windowWidth: number;
 }
 
-function getSystemTheme(): Theme {
-  if (
-    typeof window !== "undefined" &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  ) {
-    return "dark";
-  }
-  return "light";
-}
-
 function loadSettings(): PersistedSettings {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
@@ -36,10 +26,7 @@ function loadSettings(): PersistedSettings {
   };
 }
 
-function saveSettings(
-  current: PersistedSettings,
-  update: Partial<PersistedSettings>
-): void {
+function saveSettings(current: PersistedSettings, update: Partial<PersistedSettings>): void {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...current, ...update }));
   } catch {
